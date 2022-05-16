@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "@spacehq/sdk": "0.0.30",
     "disqus-react": "^1.1.2",
     "masonry-layout": "^4.2.2",
     "metismenujs": "^1.3.1",
